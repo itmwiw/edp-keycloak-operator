@@ -3,7 +3,7 @@ kind: KeycloakRealmUser
 metadata:
   name: keycloakrealmuser-sample
 spec:
-  realm: keycloakrealmrole-sample
+  realm: keycloakrealm-sample
   username: "john.snow13"
   firstName: "John"
   lastName: "Snow"
