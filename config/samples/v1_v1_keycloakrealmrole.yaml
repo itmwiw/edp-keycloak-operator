@@ -8,4 +8,4 @@ spec:
   composites: null
   description: default developer role
   name: developer
-  realm: test
+  realm: keycloakrealm-sample
