@@ -3,8 +3,8 @@ kind: KeycloakRealm
 metadata:
   name: keycloakrealm-sample
 spec:
-  id: test-realm
-  realmName: test-realm
+  id: test
+  realmName: test
   keycloakOwner: main
   ssoRealmName: openshift
   ssoRealmEnabled: false # new one
