@@ -8,7 +8,7 @@ spec:
   directAccess: true
   public: false
   secret: ''
-  targetRealm: keycloakrealm-sample
+  targetRealm: test
   webUrl: https://argocd.example.com
   defaultClientScopes:
     - argocd_groups
