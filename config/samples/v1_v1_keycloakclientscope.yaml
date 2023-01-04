@@ -4,7 +4,7 @@ metadata:
   name: keycloakclientscope-sample
 spec:
   name: groups
-  realm: test
+  realm: keycloakrealm-sample
   description: "Group Membership"
   protocol: openid-connect
   protocolMappers:
