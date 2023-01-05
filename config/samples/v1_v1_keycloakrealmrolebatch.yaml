@@ -3,17 +3,17 @@ kind: KeycloakRealmRoleBatch
 metadata:
   name: keycloakrealmrolebatch-sample
 spec:
-  realm: main
+  realm: keycloakrealm-sample
   roles:
     - attributes: null
       composite: true
       composites: null
       description: default developer role
       isDefault: false
-      name: developer
+      name: developer-b
     - attributes: null
       composite: true
       composites: null
       description: default administrator role
       isDefault: false
-      name: administrator
+      name: administrator-b
