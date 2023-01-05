@@ -5,4 +5,4 @@ metadata:
 spec:
   clientRoles: null
   name: ArgoCDAdmins
-  realm: main
+  realm: keycloakrealm-sample
