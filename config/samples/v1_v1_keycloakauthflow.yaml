@@ -3,7 +3,7 @@ kind: KeycloakAuthFlow
 metadata:
   name: keycloakauthflow-sample
 spec:
-  realm: d2-id-k8s-realm-name
+  realm: keycloakrealm-sample
   alias: MyBrowser
   description: browser with idp
   providerId: basic-flow
