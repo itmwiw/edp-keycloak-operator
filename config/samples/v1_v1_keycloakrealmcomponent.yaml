@@ -30,7 +30,7 @@ spec:
   realm: keycloakrealm-sample
   name: cr-role-test
   providerId: role
-  providerType: "org.keycloak.storage.role"
+  providerType: "org.keycloak.storage.RoleStorageProvider"
   config: {}
 
 
