@@ -23,9 +23,9 @@ spec:
     updateProfileFirstLogin: ["true"]
 ---
 apiVersion: v1.edp.epam.com/v1
-kind: KeycloakRealmComponent-2
+kind: KeycloakRealmComponent
 metadata:
-  name: keycloakrealmcomponent-sample
+  name: keycloakrealmcomponent-sample-2
 spec:
   realm: keycloakrealm-sample
   name: cr-ldap-test
