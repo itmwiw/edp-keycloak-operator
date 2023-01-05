@@ -28,10 +28,9 @@ metadata:
   name: keycloakrealmcomponent-sample-2
 spec:
   realm: keycloakrealm-sample
-  name: cr-ldap-test
-  providerId: ldap
-  providerType: "org.keycloak.storage.UserStorageProvider"
-  config:
-    allowPasswordAuthentication: ["true"]
+  name: cr-role-test
+  providerId: role
+  providerType: "org.keycloak.storage.role"
+  config: {}
 
 
