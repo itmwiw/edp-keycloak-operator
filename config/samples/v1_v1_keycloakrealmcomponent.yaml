@@ -23,7 +23,7 @@ spec:
     updateProfileFirstLogin: ["true"]
 ---
 apiVersion: v1.edp.epam.com/v1
-kind: KeycloakRealmComponent
+kind: KeycloakRealmComponent-2
 metadata:
   name: keycloakrealmcomponent-sample
 spec:
