@@ -21,3 +21,17 @@ spec:
     priority: ["0"]
     serverPrincipal: ["srv-principal-test"]
     updateProfileFirstLogin: ["true"]
+---
+apiVersion: v1.edp.epam.com/v1
+kind: KeycloakRealmComponent
+metadata:
+  name: keycloakrealmcomponent-sample
+spec:
+  realm: keycloakrealm-sample
+  name: cr-ldap-test
+  providerId: ldap
+  providerType: "org.keycloak.storage.UserStorageProvider"
+  config:
+    allowPasswordAuthentication: ["true"]
+
+
